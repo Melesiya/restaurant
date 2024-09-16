@@ -1,0 +1,292 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Navigation */
+header {
+    background-color: #58545288;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 15px;
+}
+
+nav ul li a:hover {
+    color: #cfcfcf;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#home {
+    background-image: url('bkk.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: white;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: white;
+    color: #1f3b5c;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1f3b5c;
+    color: white;
+}
+
+/* Menu Section */
+#menu {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+#menu h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: #1f3b5c;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px; 
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.menu-item h3, .menu-item p {
+    font-size: 1.2em;
+    margin: 5px 0; 
+    min-height: 60px; 
+}
+
+.add-to-cart {
+    display: inline-block;
+    background-color: #1f3b5c;
+    color: white;
+    padding: 10px 20px;
+    width: 150px; 
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: auto; 
+}
+
+.add-to-cart:hover {
+    background-color: #143542;
+}
+
+/* General Vegan Menu Styling */
+.menu {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu h2, .vegan-menu h3 {
+    font-weight: bold;
+}
+
+.menu h2 {
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.menu h3 {
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+/* Category Title */
+.menu-category h4 {
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin:
+40px 0 20px; }
+
+.vegan-menu { background-image: url('your-floral-or-vegetable-pattern-image.jpg');
+
+background-size: cover;
+ background-repeat: no-repeat;
+  background-position: center; }
+
+@media (max-width: 768px)
+ { .menu-item { text-align: left; padding: 0 20px; } }
+
+#testimonials { padding: 100px 20px;
+     text-align: center;
+     background-color: #dcdcdc; }
+
+#testimonials h2 { font-size: 2.5em;
+     margin-bottom: 50px;
+     color: #1f3b5c; }
+
+.testimonials-grid { display: flex;
+     justify-content: space-around; 
+    }
+
+.testimonial-item { width: 300px; background-color: white;
+     padding: 20px;
+     border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+.testimonial-item p { font-size: 1.2em;
+     margin-bottom: 20px; color: #333; }
+
+.testimonial-item h4 { font-size: 1em; color: #1f3b5c; }
+
+/* Checkout Page */
+#checkout {
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.checkout-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-container h2 {
+    font-size: 2.5em;
+    color: #1f3b5c;
+    margin-bottom: 20px;
+}
+
+.form-section {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.form-section h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #1f3b5c;
+    border-bottom: 2px solid #1f3b5c;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button.btn {
+    background-color: #1f3b5c;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #143542;
+}
+
+
+ footer { background-color: #333; 
+    color: white;
+     padding: 40px 20px; 
+    text-align: center; }
+
+.footer-content h3 { font-size: 1.5em;
+     margin-bottom: 20px; }
+
+footer p { font-size: 1em; }
