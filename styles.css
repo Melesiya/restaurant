@@ -151,7 +151,6 @@ nav ul li a:hover {
     background-color: #143542;
 }
 
-/* General Vegan Menu Styling */
 .menu {
     background-color: black;
     color: white;
@@ -160,7 +159,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.menu h2, .vegan-menu h3 {
+.menu h2, .menu h3 {
     font-weight: bold;
 }
 
@@ -182,7 +181,7 @@ nav ul li a:hover {
     margin:
 40px 0 20px; }
 
-.vegan-menu { background-image: url('your-floral-or-vegetable-pattern-image.jpg');
+menu { background-image: url('your-floral-or-vegetable-pattern-image.jpg');
 
 background-size: cover;
  background-repeat: no-repeat;
